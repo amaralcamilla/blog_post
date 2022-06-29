@@ -17,7 +17,7 @@ const CreateScreen = () => {
                 title="Add Blog Post"
                 onPress={() => {
                     addBlogPost(title, content, () => {
-                        navigation.navigate('Index');
+                        //navigation.navigate('Index');
                     });
                 }}
             />
